@@ -1,5 +1,9 @@
 # PicScore
 ## 1. Gesamtkonzept des Spiels
+PicScore bietet dir die Möglichkeit spielerisch die visuellen Eindrücke zu speichern. Nur die beste Perspektive bringt dich weiter im Ranking. Teile deine Bilder mit Freunden oder publiziere es in der Community. Sie helfen dir noch mehr Punkte aus deinen Momenten zu holen. Jedes Bild herhält Punkte von Ihnen in einem Ratingsystem. Die Zwischenpunktzahl des jeweiligen Bildes ermittel sich dann aus dem Punkt für das Bild, Punkte für ein Tier auf dem Bild und dem Durchschnitt des Ratings nach 30 Tagen. Dann wird die Bewertung geschlossen.
+Ein Ort wird gespeichert und kann nur einmal im Monat verwendet werden.
+Je seltener der Spot nach einem Monat aufgenommen wurde, desto höher wird sein Multiplikator sein. Dieser wird am Ende der Bewertungszeit auf die Zwischenpunktzahl angewendet. Nun steht die Gesamtpunktzahl für das Bild fest. Alle Punkte deiner Bilder gehen nun in deinen Score ein für deine private Ratingliste mit all deinen Freunden und die Ratingliste deiner Community. Hier kannst du sehen, wie du im Vergleich mit Ihnen bist. Am Ende des Jahres werden Preise an die Gewinner jeder Community vergeben.
+
 ## 2. Gameplay
 Bevor ein User die App nutzen kann, muss er einen Account erstellen. Hier werden folgende Punkte abgefragt:
 * Name
@@ -11,8 +15,15 @@ Bevor ein User die App nutzen kann, muss er einen Account erstellen. Hier werden
 * E-Mail Adresse
 
 Wurde der Account aktiviert, wird der User seiner Community zugeordnet.
+Auf der Startseite sind Bilder von Nutzern seiner Umgebung zu sehen. Diese können hier Bewertet werden.
+In den Einstellungen kann der Nutzer neben dem Profilbild auch Freunde suchen. Verbindet der Nutzer sein Account mit Facebook, kann er direkt die Freunde sehen, die auch diese App nutzen. Besteht eine Verbindung aus Freundschaft, sind auch diese Bilder einsehbar und bewertbar für die Rankingliste unter Freunden.
+Natürlich können auch selbst Bilder Aufgenommen werden. Hier muss darauf geachtet werden, dass das Bild so viele Punkte wie nur möglich bringen soll. Die Bildkomposition, bestehend aus Zeit, Ort, Perspektive, Storry und stilistische Mittel, sollte also optimal sein. Um stilistische Mittel einzubinden besteht eine In-App Möglichkeit die Aufnahmen zu bearbeiten. Wurde jedoch im Umkreis von 20m in den letzten 30 Tagen bereits ein Bild aufgenommen, kann dieses Bild nicht verwendet werden.
+Am Ende des Jahres kommt dann die Belohnung für die ganze Mühe. Denn die ersten Plätze eines Umkreises bekommen Preise.
+Aber auch alle anderen Nutzern bietet diese App ein Nutzen. Denn sie können auf einer Karte ihre Bilder sehen und können sich ein Ort mit einem Video vorstellen lassen.
 
-### 2.1 Punktesystem
+## 3. Schnittstellen / Kontrollelemente
+### 3.1 Regeln
+#### 3.1.1 Punktesystem
 1. Jedes Bild bringt zunächst einen Punkt.
 2. Freunde oder Community können dem Bild Punkte von 1 bis 10 geben. Der
 Durchschnitt wird auf die Punktzahl des Bildes aufgerechnet.
@@ -23,16 +34,16 @@ das Bild und des Punkten für die Bewertung angewendet.
 4. Ein Bild wird nach 30 Tagen für die Bewertung geschlossen und der
 Endpunktestand steht fest.
 
-### 2.2 Bilder
+#### 3.1.2 Bilder
 Ein Spot im Umkreis von 20m wird für 30 Tage nach Aufnahme gesperrt.
 
-### 2.3 Rankingliste
+#### 3.1.3 Rankingliste
 1. Es existieren 2 Listen, das Freunderanking und das Communityranking.
 2. Punkte für das Freunderanking können nur von Freunde gegeben werden.
 3. Punkte für das Communityranking kann jeder im Umkreis von 50km vom Spot
 gegeben werden, fallt der User das Bild freigegeben hat.
+4. Am jeweils am 30.12. wird die Communityliste geschlossen, Preise verteilt und Gewinner bzw. Verlierer den neuen Leaguen zugeordnet.
 
-## 3. Schnittstellen / Kontrollelemente
 ## 4. Leveldesign
 PicScor wird in einerm Ligasystem gespielt hierzu werden alle Nutzer in 4 Ligen unterteilt. Nach erfolgter Erstellung eines Accounts beginnt jeder Nutzer zunächst in der Beginner-League.
 Jede Liga hat ihre eigenen Rankinglisten und je nachdem an welcher Position sich der User befindet, kann er sich in diser halten, aufsteigen oder absteigen. Die gesammelten Punkte werden dann am 30. Dezember des Jahres gelöscht.
@@ -74,5 +85,10 @@ Hier sieht der Nutzer seine aktuelle Positin in der Rankingliste. Hier kann er z
 ### 5.4 Bildschirm - Eigene Bilder
 Die Ansicht der eigenen Bilder kann auf verschiedene Varianten erfolgen. Entweder als Liste von Bildern, oder in einer Kartenansicht.
 Tippt ein Nutzer auf ein Bild, so wird dieses vergrößert angezeigt mit Informationen wie Bewertungsstand und Kommentaren.
+Zusätzlich kann der User einen Film seiner Bilder anzeigen lassen.
+
+### 5.5 Bildschirm - Einstellungen
+In den Einstellungen kann sich der Nutzer mit Facebook verbinden um Freunde zu suchen. Freunde können aber auch über den Benutzernamen gesucht werden. Wir ein Freund hinzugefügt, bekommt dieser zunächst eine Anfrage. Anfragen werden in den Einstellungen angezeigt und können angenommen, oder abgelehnt werden.
+Zusätzlich kann das Profilbild eingestellt werden.
 
 ## 6. Benötigte Assets
