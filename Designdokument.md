@@ -27,6 +27,10 @@ In der World-League befinden sich nun alle Nutzer, die sich in der State-League 
 Der Warenwert für die besten 3 entspricht in dieser Liga nun einen Geldwert von 600 - 1200 Euro.
 
 ## Grafik und Animation
+Da PicScore eine Application für Smartphones ist, ist die Darstellung optimiert für kleine Displays und die Steuerung erfolgt über Gestensteuerung.
+
+### Startbildschirm
+
 ## Musik und Sound
 ## Benötigte Assets
 ## Story (falls vorhanden)
