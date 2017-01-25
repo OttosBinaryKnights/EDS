@@ -1,6 +1,6 @@
 # PicScore
 ## 1. Gesamtkonzept des Spiels
-PicScore bietet dir die Möglichkeit spielerisch die visuellen Eindrücke zu speichern. Nur die beste Perspektive bringt dich weiter im Ranking. Teile deine Bilder mit Freunden oder publiziere es in der Community. Sie helfen dir noch mehr Punkte aus deinen Momenten zu holen. Jedes Bild herhält Punkte von Ihnen in einem Ratingsystem. Die Zwischenpunktzahl des jeweiligen Bildes ermittel sich dann aus dem Punkt für das Bild, Punkte für ein Tier auf dem Bild und dem Durchschnitt des Ratings nach 30 Tagen. Dann wird die Bewertung geschlossen.
+PicScore bietet dir die Möglichkeit spielerisch die visuellen Eindrücke zu speichern. Nur die beste Perspektive bringt dich weiter im Ranking. Teile deine Bilder mit Freunden oder publiziere es in der Community. Sie helfen dir noch mehr Punkte aus deinen Momenten zu holen. Jedes Bild herhält Punkte von Ihnen in einem Ratingsystem. Die Zwischenpunktzahl des jeweiligen Bildes ermittelt sich dann aus dem Punkt für das Bild, Punkte für ein Tier auf dem Bild und dem Durchschnitt des Ratings nach 30 Tagen. Dann wird die Bewertung geschlossen.
 Ein Ort wird gespeichert und kann nur einmal im Monat verwendet werden.
 Je seltener der Spot nach einem Monat aufgenommen wurde, desto höher wird sein Multiplikator sein. Dieser wird am Ende der Bewertungszeit auf die Zwischenpunktzahl angewendet. Nun steht die Gesamtpunktzahl für das Bild fest. Alle Punkte deiner Bilder gehen nun in deinen Score ein für deine private Ratingliste mit all deinen Freunden und die Ratingliste deiner Community. Hier kannst du sehen, wie du im Vergleich mit Ihnen bist. Am Ende des Jahres werden Preise an die Gewinner jeder Community vergeben.
 
@@ -68,7 +68,7 @@ In der World-League befinden sich nun alle Nutzer, die sich in der State-League 
 Der Warenwert für die besten 3 entspricht in dieser Liga nun einen Geldwert von 600 - 1200 Euro.
 
 ## 5. Grafik und Animation
-Da PicScore eine Application für Smartphones ist, ist die Darstellung optimiert für kleine Displays und die Steuerung erfolgt über Gestensteuerung.
+Da PicScore eine Application für Smartphones ist, ist die Darstellung optimiert für kleine Displays und die Steuerung erfolgt über Gestensteuerung. Die Grafiken sind schlicht und einfach gehalten, jedoch trozdem modern. Es wird sich an den "iOS Human Interface Guidelines" orientiert.
 
 Allgemein wird durch wischen nach rechts und links die Navigation zwischen den Bildschirmen realisiert.
 
@@ -92,3 +92,8 @@ In den Einstellungen kann sich der Nutzer mit Facebook verbinden um Freunde zu s
 Zusätzlich kann das Profilbild eingestellt werden.
 
 ## 6. Benötigte Assets
+### 6.1 Interface Assets
+Für die Anmeldung bei PiCscore gibt es ein typisches Anmeldefenster, in das der User seine Daten eintragen kann. Dann gelangt man auf den Startbildschirm (siehe 5.1). Bei diesem und allen nachfolgenden Bildschirmen gibt es das Menüicon (drei vertikale Linien) oben links in der Ecke. Wenn diese ausgewählt wird klapp ein Menü von links auf und man kann auf die andern Bildschirme wechseln. Die Bildschirme sind in Kapitel 5 dargestellt.
+
+### 6.2 Musik und Soundeffekte
+Wenn der User möchte, kann er die Musik und Soundeffekte über den Einstellungs Bildschirm einstellen. Dann kann er sich beim Fotobearbeiten und Fotosbewerten von ruhiger gesangloser Musik beschallen lassen. Soundeffekte gibt es beim Fotoschießen, wenn man einen Platz besser bzw. schlechter geworden ist im Ranking oder wenn man ein neues Level erreicht hat. Die Sounds werden der jeweiligen Situation angepasst, also bei Levelabstieg ein Sound der etwas traurig klingt. 
